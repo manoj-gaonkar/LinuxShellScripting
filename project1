@@ -1,0 +1,12 @@
+#!/bin/bash
+
+name="the Lion"
+
+echo "<html>
+	<head>
+		<title>Project1</head>
+	</head>
+	<body>
+		<h2>the name is $name</h2>
+	</body>
+</html>"
