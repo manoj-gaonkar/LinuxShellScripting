@@ -10,3 +10,9 @@ echo "<html>
 		<h2>the name is $name</h2>
 	</body>
 </html>"
+
+cat << _EOF_
+$name
+"$name"
+'$name'
+_EOF_
