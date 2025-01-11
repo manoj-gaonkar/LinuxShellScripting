@@ -28,7 +28,9 @@ function pos_params(){
 	if [ $2 ]
 	then
 		echo "second name : $2"
+		echo "Process id: $$"   ## NOTE!!  $$  contains the process id of this script
+		#sleep 10
 	fi
 }
 
-pos_params manoj 
+pos_params Shivam Gaurav 
