@@ -14,3 +14,19 @@ case $1 in
 		;;
 esac
 
+# using wildcards in case statements
+
+read -p "Say yes or no " ANS
+
+case "$ANS" in 
+	[yY]|[yY][eE][sS])
+		echo "your answer is yes."
+		;;
+	[nN]|[nN][oO])
+		echo "your answer is no."
+		;;
+	*)
+		echo "invalid answer"; exit 1
+		;;
+esac
+
