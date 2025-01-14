@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "clean script"
+echo "hello world"
