@@ -12,6 +12,7 @@
 #done
 
 # Example 2
+# reading a file line by line
 
 LINE_NUM=1
 while read LINE
